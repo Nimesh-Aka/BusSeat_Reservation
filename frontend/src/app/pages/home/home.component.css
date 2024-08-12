@@ -1,0 +1,12 @@
+.img-fluid {
+  width: 100%; /* Makes the image width responsive */
+  height: auto; /* Maintains the aspect ratio */
+  object-fit: cover; /* Ensures the image covers the container without distortion */
+  border-radius: 8px; /* Optional: Adds rounded corners */
+}
+
+/* Optional: Style the container if needed */
+.col-lg-6.col-xl-7 {
+  position: relative; /* Ensures proper positioning if using absolute positioning within */
+  overflow: hidden; /* Prevents overflow of the image */
+}
